@@ -1,0 +1,47 @@
+.radio>input:checked{
+    margin: 15px;
+    width: 20px;
+    height: 20px;
+}
+.radio>input:checked + label[for=radio1]{
+    background-color: rgb(175, 40, 17);
+    padding: 10px;
+    height: 10px;
+}
+.radio>input:checked + label[for=radio2]{
+    background-color: rgb(238, 255, 0);
+    padding: 10px;
+    height: 10px;
+}
+.radio>input:checked + label[for=radio3]{
+    background-color: rgb(30, 175, 17);
+    padding: 10px;
+    height: 10px;
+}
+
+.stylelink{
+    background-color:gray;
+    width: 500px;
+    position: relative;
+    top: 100px;
+}
+.stylelink>ul>li{
+    display: inline-flex;
+    padding: 10px;
+}
+.stylelink>ul>#lfirst{
+    background-color: green;
+}
+.stylelink>ul>#lsecond{
+    background-color: blue;
+}
+.stylelink>ul>#lthird{
+    background-color: blue;
+}
+.stylelink>ul>#lfourth{
+    background-color: red;
+}
+
+#lorem{
+    width: 500px;
+}

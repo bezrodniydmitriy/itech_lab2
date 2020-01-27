@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Bezrodniy Lab2</title>
+    <style>
+        .stylehead{
+            background-color:gray;
+            width: 500px;
+            position: absolute;
+            right: 800px;
+        }
+        .stylehead>ul>li{
+            display: inline-flex;
+            padding: 10px;
+        }
+        .stylehead>ul>#sfirst{
+            background-color: green;
+        }
+        .stylehead>ul>#ssecond{
+            background-color: blue;
+        }
+        .stylehead>ul>#sthird{
+            background-color: blue;
+        }
+        .stylehead>ul>#sfourth{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="radio">
+        <input type="radio" name="num1" id="radio1" checked><label for="radio1">First</label><br>
+        <input type="radio" name="num1" id="radio2">        <label for="radio2">Second</label><br>
+        <input type="radio" name="num1" id="radio3">        <label for="radio3">Third</label><br>
+    </div>
+    <div style="background-color: gray; width: 500px; float: right;">
+        <ul style="display:flex;">
+            <li style="display: inline-flex; background-color: blue; padding: 10px;order:0;">Я ТРЕТИЙ</li>
+            <li style="display: inline-flex; background-color: red; padding: 10px; order:1;">Я ЧЕТВЕРТЫЙ</li>
+            <li style="display: inline-flex; background-color: green; padding: 10px; order:-2;">Я ПЕРВЫЙ</li>
+            <li style="display: inline-flex; background-color: blue; padding: 10px;order:-1;">Я ВТОРОЙ</li>
+        </ul>
+    </div>
+    <div id="lorem">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odit minima quam et quo! Corporis numquam exercitationem animi ducimus culpa veritatis! Tempora ea laborum animi tenetur non illo tempore atque rerum.</p>
+        </div>
+    <div class="stylehead">
+        <ul>
+            <li id="sthird">Я ТРЕТИЙ</li>
+            <li id="sfourth">Я ЧЕТВЕРТЫЙ</li>
+            <li id="sfirst">Я ПЕРВЫЙ</li>
+            <li id="ssecond">Я ВТОРОЙ</li>
+        </ul>
+    </div>
+    <div class="stylelink">
+        <ul>
+            <li id="lthird">Я ТРЕТИЙ</li>
+            <li id="lfourth">Я ЧЕТВЕРТЫЙ</li>
+            <li id="lfirst">Я ПЕРВЫЙ</li>
+            <li id="lsecond">Я ВТОРОЙ</li>
+        </ul>
+    </div>
+</body>
+</html>
